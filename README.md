@@ -41,7 +41,15 @@ Search results, failed calls and calls you deny are not listed. The pane keeps t
 
 ## Install
 
-At the prompt of a terminal session:
+In Claude Code, add the marketplace, install the plugin, then reload:
+
+```
+/plugin marketplace add twizck/claude-atlassian-links
+/plugin install atlassian-links@claude-atlassian-links
+/reload-plugins
+```
+
+Or in one command at the prompt of a terminal session:
 
 ```
 /plugin install atlassian-links --marketplace twizck/claude-atlassian-links
