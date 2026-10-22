@@ -1,0 +1,5 @@
+{
+  "name": "claude-atlassian-links",
+  "owner": { "name": "twizck" },
+  "plugins": [{ "name": "atlassian-links", "source": "./" }]
+}

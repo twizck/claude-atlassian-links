@@ -1,0 +1,14 @@
+{
+  "name": "atlassian-links",
+  "version": "0.1.0",
+  "description": "Pane of quick links to the Jira card Claude is working on and the Jira issues and Confluence pages it explored",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "site": {
+      "type": "string",
+      "title": "Atlassian site",
+      "description": "Your Atlassian Cloud site, e.g. yourcompany.atlassian.net",
+      "required": true
+    }
+  }
+}
